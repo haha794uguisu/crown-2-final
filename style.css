@@ -104,3 +104,7 @@ input[type="button"]#show, [type="button"]#next{
     font-size: 17px;
     cursor: pointer;
 }
+
+.attention{
+    text-align: center;
+}
