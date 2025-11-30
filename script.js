@@ -308,19 +308,17 @@ const textbox = document.getElementById('input_answer');
 
 textbox.addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        console.log('Enterキーが押されました！');
-        answer()
-    }
-});
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Tab') {
-        console.log('tab');
-        next();
+        if (event.shiftKey) {
+            next();
+        }else{
+            answer();
+        }
     }
 });
 window.addEventListener('DOMContentLoaded', () => {
     
 
 });
+
 
 
