@@ -291,6 +291,9 @@ function next(){
 
     document.getElementById("question_meaning").textContent = meaning;
 
+    const textbox = document.getElementById("input_answer");
+    textbox.value = "";
+    
     document.getElementById("your_answer").textContent = "回答していません";
 
     initials = 0;
@@ -319,6 +322,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
 
 });
+
 
 
 
