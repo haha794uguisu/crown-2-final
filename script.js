@@ -312,8 +312,15 @@ textbox.addEventListener('keydown', (event) => {
         answer()
     }
 });
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Tab') {
+        console.log('tab');
+        next();
+    }
+});
 window.addEventListener('DOMContentLoaded', () => {
     
 
 });
+
 
