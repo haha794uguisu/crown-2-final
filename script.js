@@ -119,7 +119,7 @@ let meaningList = [
     '模倣、まね',
     'まねる、模倣する',
     '持続する、支える',
-    '支える、支援する',
+    '支える、支援する<adv>',
     '脅かす',
     'ハチドリ',
     'グラム',
@@ -316,3 +316,4 @@ window.addEventListener('DOMContentLoaded', () => {
     
 
 });
+
