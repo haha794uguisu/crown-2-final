@@ -126,7 +126,7 @@ let meaningList = [
     '燃料',
     '重さ、重量',
     '（詩的な）自然などを指す代名詞／彼女の',
-    '～に頼る、～をあてにする',
+    '～に…を頼る',
     '…よりもむしろ～',
     '～について夢を見る',
     '何度も～',
@@ -314,4 +314,5 @@ textbox.addEventListener('keydown', (event) => {
 });
 window.addEventListener('DOMContentLoaded', () => {
     
+
 });
