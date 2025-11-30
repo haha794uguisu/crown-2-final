@@ -134,7 +134,7 @@ let meaningList = [
     'カワセミ',
     '飛び込む',
     '水しぶき',
-    '環境に優しく',
+    '環境の',
     '空調、エアコン',
     'シロアリ',
     '塚、土手',
@@ -322,6 +322,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
 
 });
+
 
 
 
